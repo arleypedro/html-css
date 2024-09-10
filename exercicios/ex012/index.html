@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos hospedado localmente.</h1>
+    <p>Este vídeo esta hospedado no meu próprio servidor</p>
+    <p> A forma mais simples de se colocar vídeo é esta abaixo, porém pode não ser compativel com todos os navegadores.</p>
+    <video src="midea/limao.mp4" width="560" controls></video>
+    <hr>
+    <p>Abaixo usamos a forma mais eficiente para colocar vídeo pois podemos colocar vários formatos de vídeo e o navegador carregará o que for compatível, caso não seja compatível com nenhum formato, informamos para o usuário a incompatibilidade. </p>
+    <video width="560" poster="imagem/limoes-capa.png" controls autoplay loop>
+        <source src="midea/limao.mp4" type="video/mp4">
+        <source src="midea/limao.m4v" type="video/mp4">
+        <source src="midea/limao.webm" type="video/webm">
+        <source src="midea/limao.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo</p>
+    </video>
+
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/AimOWhQd5Bg?si=aMq7l1XkMsYMRr-S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    
+</body>
+</html>

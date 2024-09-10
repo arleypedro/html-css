@@ -1,0 +1,52 @@
+@charset "UTF-8"; /* garantir que os caracteres especiais e símbolos sejam exibidos corretamente.*/
+
+*{  /* seletor universal", aplica o estilo especificado a todos os elementos da página.*/
+    font-family:Arial, Helvetica, sans-serif; 
+    /* font-family: define a prioridade das fontes. Arial: primeira escolha de fonte. Helvetica: fonte sans-serif alternativa.
+    sans-serif: fonte genérica para garantir que um estilo sans-serif seja aplicado se Arial e Helvetica não estiverem disponíveis
+    */
+    margin: 0; /* Remove a margem padrão de todos os elementos. */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos. */
+    box-sizing: border-box; /* Inclui bordas e preenchimentos no cálculo da largura e altura de um elemento. */
+}
+
+html, body {
+    height: 100%;  100%; /* Define a altura de html e body como 100% da altura da viewport(janela de exibição). */ 
+}
+body {
+    background-image: linear-gradient(to right,#F1D8C9,#F2C3A7); /* Cria um degradê linear da esquerda para a direita. */
+}
+
+main {
+    height: 85%; /* define a altura do <main> como 85% da altura do contêiner pai.*/
+    text-align: justify;
+    background-color: white; /* cor branca*/
+    border-radius: 10px; /* arredonda os cantos em 10 pixel*/
+    width: 700px; /* define a largura do <main> como 700 pixel */
+    padding: 20px; /*Adiciona um preenchimento de 20 pixels ao redor do conteúdo do <main>. */
+    margin: auto; /* Centraliza o <main> horizontalmente dentro do contêiner pai. */
+    margin-top: 20px; /* Adiciona uma margem superior de 20 pixels ao <main>. */
+    box-shadow: 10px 10px 10px #9b7c6b91; /* Adiciona uma sombra ao redor do <main> com deslocamento e difusão especificados. */
+    overflow: auto; /*Adiciona uma barra de rolagem se o conteúdo exceder a altura do contêiner. ou
+    overflow: hidden;: Oculta qualquer conteúdo que ultrapasse os limites do contêiner.*/
+}
+
+h1 {
+    color: #F39209 ; /* Define a cor do texto dos <h1> como laranja. */
+    text-align: center; /* Centraliza o texto dentro do <h1>. */
+    text-shadow: 2px 3px 4px #be7206c4;  /* Adiciona uma sombra ao texto do <h1> com deslocamento e difusão especificados. */
+    margin-top: 20px; /* Adiciona uma margem superior de 20 pixels ao <body>. */
+    margin-bottom: 20px; /*Adiciona uma margem inferior de 20 pixels entre <h1> e <main>. */
+}
+ul li {
+    margin-bottom: 10px; /* Ajuste o valor conforme necessário */
+}
+
+H2 {
+    color: #125189;  /* Define a cor do texto dos <h2> como um tom de azul. */
+}
+
+p {
+    text-align: justify; /* Justifica o texto dentro dos elementos <p>, distribuindo-o uniformemente entre as margens esquerda e direita. */
+    margin-bottom: 10px; /* Ajuste o valor conforme necessário */
+}
