@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundo fixo ou rolante</title>
+    <style>
+        body {
+            height: 100vh;
+           /* background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;*/
+            /*background-size:contain ;*/ /*(Dimensione a imagem, preservando sua proporção intrínseca (se houver), para o maior tamanho possível, de modo que tanto sua largura quanto sua altura caibam dentro da área de posicionamento do plano de fundo.)*/
+
+            /*(Dimensione a imagem, preservando sua proporção intrínseca (se houver), para o menor tamanho possível, de modo que tanto sua largura quanto sua altura possam cobrir completamente a área de posicionamento do fundo.)*/
+            /*background-attachment: fixed;*//* fixa o fundo*/
+            /* shorthand - bacground
+            nesta ordem: color > image >  position > repeat [size] attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size:cover ; /*o size ainda não esta incluido na shorthand por isso esta entre colchetes*/
+        }
+        main {
+            max-width: 400px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+            background-color: white;
+            padding: 10px;
+            bac
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagem de Fundo</h1>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, laudantium eligendi ad exercitationem, dolorem facilis temporibus quos impedit esse non laborum veritatis quam facere iste ea. Laborum totam ipsam nesciunt.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error libero voluptatem rerum voluptate pariatur fugit! Magnam quidem dolores possimus ipsum ratione quo dolor itaque veniam perferendis? Inventore eius similique harum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus commodi, natus perferendis, earum corrupti illo distinctio tenetur repudiandae modi illum quis quas unde est atque, eius sapiente quidem beatae doloribus.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, laudantium eligendi ad exercitationem, dolorem facilis temporibus quos impedit esse non laborum veritatis quam facere iste ea. Laborum totam ipsam nesciunt.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error libero voluptatem rerum voluptate pariatur fugit! Magnam quidem dolores possimus ipsum ratione quo dolor itaque veniam perferendis? Inventore eius similique harum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus commodi, natus perferendis, earum corrupti illo distinctio tenetur repudiandae modi illum quis quas unde est atque, eius sapiente quidem beatae doloribus.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, laudantium eligendi ad exercitationem, dolorem facilis temporibus quos impedit esse non laborum veritatis quam facere iste ea. Laborum totam ipsam nesciunt.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error libero voluptatem rerum voluptate pariatur fugit! Magnam quidem dolores possimus ipsum ratione quo dolor itaque veniam perferendis? Inventore eius similique harum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus commodi, natus perferendis, earum corrupti illo distinctio tenetur repudiandae modi illum quis quas unde est atque, eius sapiente quidem beatae doloribus.
+        </p>
+    </main>
+    
+</body>
+</html>
