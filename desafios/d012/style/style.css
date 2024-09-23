@@ -37,9 +37,27 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-section.igual {
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em; /*espaçamento entre linhas*/
+
+}
+
+section.normal {
     background-color: white;
     color: black;
+}
+
+section.imagem {
+    background-color: rgb(94, 92, 92);
+    color: white;
+}
+
+section.imagem >p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
 }
 
 footer {
